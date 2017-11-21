@@ -12,11 +12,8 @@ int main()
         if(n1%i==0 && n2%i==0)
             gcd = i;
     }
-if(gcd==1){
-    printf("Coprime numbers.");
-}
-else{
-    printf("Not coprime numbers");
-}
+
+    printf("G.C.D of %d and %d is %d", n1, n2, gcd);
+
     return 0;
 }
